@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">College</string>
+    <string-array name="roles">
+        <item>Приёмная комиссия</item>
+        <item>Преподаватель</item>
+        <item>Студент</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

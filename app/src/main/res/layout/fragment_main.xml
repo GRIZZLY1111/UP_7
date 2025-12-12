@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Поиск по ФИО или группе"
+        android:imeOptions="actionSearch"
+        android:inputType="text" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/buttonStudents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Список студентов" />
+
+    <Button
+        android:id="@+id/buttonTeachers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Преподаватели"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/buttonAddStudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Добавить студента"
+        android:layout_marginTop="8dp" />
+    <Button
+        android:id="@+id/buttonAddTeacher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Добавить преподавателя"
+        android:layout_marginTop="8dp" />
+</LinearLayout>

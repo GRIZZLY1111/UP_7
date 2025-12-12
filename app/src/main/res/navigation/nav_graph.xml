@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.college.MainFragment"
+        android:label="Колледж" />
+
+    <fragment
+        android:id="@+id/studentListFragment"
+        android:name="com.example.college.StudentListFragment"
+        android:label="Студенты" />
+
+    <fragment
+        android:id="@+id/teacherListFragment"
+        android:name="com.example.college.TeacherListFragment"
+        android:label="Преподаватели" />
+
+    <fragment
+        android:id="@+id/addStudentFragment"
+        android:name="com.example.college.AddStudentFragment"
+        android:label="Добавить студента" />
+
+    <fragment
+        android:id="@+id/studentProfileFragment"
+        android:name="com.example.college.StudentProfileFragment"
+        android:label="Мой профиль" />
+
+    <fragment
+        android:id="@+id/addTeacherFragment"
+        android:name="com.example.college.AddTeacherFragment"
+        android:label="Добавить преподавателя" />
+</navigation>
